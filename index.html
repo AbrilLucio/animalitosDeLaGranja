@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Mi primera pagina web</title>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./imagenes/animalitos.jpg" alt="logo de pagina">
+        </div>
+        <nav>
+            <ul>
+                <a href="https://www.pinterest.com.mx/rosarionanetti/perritos/">
+                    <li>PERRITOS</li>
+                </a>
+                <a href="https://purina.com.mx/purina/node/408">
+                    <li>GATITOS</li>
+                </a>
+                <a href="https://www.pinterest.com.mx/pin/425308758564095108/">
+                    <li>CABRITAS</li>
+                </a>
+                <a href="https://unsplash.com/es/images/animals/bunny">
+                    <li>CONEJITOS</li>
+                </a>
+                <a
+                    href="https://bmeditores.mx/ganaderia/que-anda-mal-con-mi-ganado-parte-6-crecimiento-de-los-ternero/">
+                    <li>VAQUITAS</li>
+                </a>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="contenedor">
+        <div class="caja">
+            <img src="./imagenes/perrito.jpg" alt="perritos">
+            <h1>El perrito</h1>
+            <p>Me gustan los perritos</p>
+        </div>
+        <div class="caja">
+            <img src="imagenes/gatito.jpg" alt="gatitos">
+            <h1>El gatito</h1>
+            <p>Los gatitos son bonitos</p>
+        </div>
+        <div class="caja">
+            <img src="imagenes/cabrita.jpg" alt="cabritas">
+            <h1>Las cabritas</h1>
+            <p>Las cabritas son mis favoritas</p>
+        </div>
+    </div>
+
+    <div class="carousel1">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="imagenes/granja1.jpg" alt="granja1" style="width:100%;">
+                </div>
+
+                <div class="item">
+                    <img src="imagenes/granja2.jpg" alt="granja2" style="width:100%;">
+                </div>
+
+                <div class="item">
+                    <img src="imagenes/granja3.jpg" alt="granja3" style="width:100%;">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+    <div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.2267836093015!2d-100.18458802595808!3d25.630597714012673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662c170a343e94f%3A0xe5a74d3364b9399c!2sLa%20Granja%20De%20Los%20Ninos!5e0!3m2!1ses-419!2smx!4v1715911109116!5m2!1ses-419!2smx"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dO5zpQtWBKU?si=vuWGFypnMxdWT1ob"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer>
+        "Todos los animalitos son importantes no hay que maltratarlos"
+    </footer>
+
+</body>
+
+</html>

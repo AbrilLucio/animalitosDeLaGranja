@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+   background-color: rgb(223, 160, 194); 
+   width: 100%;
+}
+a{
+  text-decoration: none;
+}
+header ul{
+list-style: none;
+display: flex;
+flex-direction: row;
+}
+header ul li{
+  margin: 10px;
+  
+}
+
+img{
+  width: 150px;
+}
+h1{
+font-size: 30px;
+color: rgb(214, 129, 153);
+font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  font-size: 20px;
+color: rgb(170, 94, 203);
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 0 10px 0;
+  background-color: rgb(146, 243, 243);
+}
+
+.carousel1{
+  display: grid;
+  width: 50%;
+  margin: 0 auto;
+}
+
+iframe{
+  padding: 10px;
+  margin: 10px;
+}
+.caja{
+ width: 100%;
+ height: 100%;
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+align-items: center;
+}
+.caja img{
+  border-radius: 100%;
+}
+.caja p{
+  font-size: 12;
+}
